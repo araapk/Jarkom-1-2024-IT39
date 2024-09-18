@@ -1,4 +1,4 @@
-# Laporan Ressmi Praktikum Jarkom 2024 Modul -1
+# Laporan Resmi Praktikum Jarkom 2024 Modul -1
 
 ---
 ### Anggota Kelompok
@@ -8,13 +8,13 @@
 # Daftar Isi
 - [Advance-Sanity-Check](#advance-sanity-check)
 - [Illegal-Breakthrough](#illegal-breakthrough)
-- [Packets-Barrage](#packets-barrage)
 - [FTP-Login](#ftp-login)
 - [Surprise](#surprise)
 - [Corporate-Breach](#corporate-breach)
 - [Pegawai-Negeri-Sebelah](#pegawai-negeri-sebelah)
 - [EZ](#ez)
 - [Rizzset](#rizzset)
+- [Malacious-Code](#malacious-code)
 - [Stegography](#stegography)
 
 
@@ -54,21 +54,6 @@ Langkah-langkah menemukan flag :
 ![Screenshot_2024-09-18_13_11_37](https://github.com/user-attachments/assets/d0e277a1-94bb-4980-babb-3b6ba8d2b491)
 
 
-
-## Packets Barrage
-### Deskripsi
-Setelah membantu kevin untuk tracing attacker, sekarang bantu lagi kevin untuk mencari apa yang dilakukan oleh attacker.
-File sama seperti Illegal Breakthrough.
-
-### Flag
-
-
-### Penjelasan
-
-
-### Dokumentasi Pengerjaan
-
-
 ## FTP Login
 ### Deskripsi
 Seseorang menemukan sebuah celah dalam sebuah server. Ia mencoba untuk melakukan brute force login dan ia berhasil masuk. Lakukan pemeriksaan untuk melihat apa yang dilakukan oleh orang tersebut!
@@ -100,15 +85,14 @@ JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_tSvczBH3CSN1umnRG7wxlQaxwG05z50eT7nZYnGy5x5eY
 ### Penjelasan
 Langkah-langkah menemukan flag :
 1. Masuk ke nc yang ada di soal `nc 10.15.42.60 48500`
-2. Temukan service yang digunakan pada FTP server dengan cara
-3. Temukan nama file yang dikirim oleh attacker dengan cara
-4. Temukan pesan rahasia yang ditinggalkan oleh attacker dengan cara
+2. Temukan service yang digunakan pada FTP server dengan cara mencari di `info`
+3. Temukan nama file yang dikirim oleh attacker dengan cara mencari di `info`
+4. Temukan pesan rahasia yang ditinggalkan oleh attacker dengan cara `follow` pada usernya, kemudian copy vector chipPartsnya dan convert ke text. Lalu, copy text ke terminal
 5. Setelah menemukan semuanya akan muncul flagnya dan masukkan pada soal
 
 ### Dokumentasi Pengerjaan
 ![Screenshot_2024-09-18_13_33_23](https://github.com/user-attachments/assets/81b28609-e33c-40ab-acb9-e0ad9cd6061c)
 ![Screenshot_2024-09-18_13_33_39](https://github.com/user-attachments/assets/9b411e48-0c5c-42d0-a530-d2ae551011e2)
-
 
 
 ## Corporate Breach
@@ -153,6 +137,36 @@ Aku sedang mencoba bikin chat service tapi kayanya pesannya bisa di sniffing deh
 ## Rizzset
 ### Deskripsi
 Aku sedang bereksperimen dengan suatu tools, kamu juga bisa menggunakannya untuk menjawab soal ini
+
+### Flag
+JarkomIT{Dn5_C0rR34t10n_n8hjYobGqKiPEhMTB3eeSGgeIr1zZPQRNUbU2unoKhb42NNwj4XcEh1T5}
+
+### Penjelasan
+Langkah-langkah menemukan flag :
+1. Masuk ke nc yang ada di soal `nc 10.15.42.60 59500`
+2. Cari di google cara install jarm
+   - Clone github jarm di terminal
+   - Pindah ke folder `jarm`
+   - Install requirementsnya menggunakan command `pip install -r requirements.txt`
+   - Run jarmnya agar dapat jarm webnya menggunakan command `python3 jarm.py -v webnya`, lalu copy jarmnya
+   - Keluar dari folder
+3. Masuk ke nc lagi
+4. Temukan nama domain dari dns query pada log dengan cara mencari di `info`
+5. Temukan IP dari domain dengan cara mencari di `source`
+6. Masukkan jarm yang telah di dapat tadi
+7. Setelah menemukan semuanya akan muncul flagnya dan masukkan pada soal
+
+### Dokumentasi Pengerjaan
+![Screenshot_2024-09-18_14_27_41](https://github.com/user-attachments/assets/733d276f-1803-4bbc-bb72-da660b259ad1)
+![Screenshot_2024-09-18_14_28_03](https://github.com/user-attachments/assets/f9b7b309-3d4f-4467-9e26-0f8dc8e5cb86)
+![Screenshot_2024-09-18_14_28_16](https://github.com/user-attachments/assets/4157acc9-c1e8-45a4-a0fa-cdf23681e257)
+![Screenshot_2024-09-18_14_28_33](https://github.com/user-attachments/assets/4575af59-a978-49ba-82a3-ffa3317d79b9)
+![Screenshot_2024-09-18_14_28_38](https://github.com/user-attachments/assets/f4867a8b-94e4-48ac-a8e9-3e8cdb900882)
+
+## Malacious Code
+### Deskripsi
+Ternyata sang attacker dengan sengaja meninggalkan sesuatu untuk dibaca oleh kamu. Lihat pesan apa yang ditinggalkan attacker.
+File sama seperti Corporate Breach.
 
 ### Flag
 
