@@ -23,9 +23,14 @@
 Yang sederhana dulu aja.
 
 ### Flag
-
+JarkomIT{8uK4n_S4n1ty_b1a5A_xcTcEi7kvH6fLCItLIZzNzBZZSu5b4OTIjRxoQ2UzzgIr6eWNHIwkIKK}
 
 ### Penjelasan
+1.Masuk ke nc yang ada di soal nc 10.15.42.60 47000 & download pcapng dari soal
+2.Lakukan Filtering berupa TCP dan follow streamnya 
+3.Data berupa username pengirim dan juga filenya akan ketemu
+4.Untuk mendapatkan pesan rahasia, ikuti petunjuk, lalu dapatkan kode dari ppt peraturan. 
+5.Lakukan Decode dari Base64 ke Text
 
 
 ### Dokumentasi Pengerjaan
@@ -100,9 +105,14 @@ Langkah-langkah menemukan flag :
 Sebuah perusahaan IT support mendapatkan serangan oleh orang tidak dikenal. Bantulah perusahaan tersebut untuk melacak jejak yang ditinggalkan oleh attacker.
 
 ### Flag
+JarkomIT{supp0rt_k0k_l3m4h_bg_spWRE3LkMxyzoWMMVAlNt7saeG6mdRvzEbWx7asAXh6U0efY4zEDG6}
 
 
 ### Penjelasan
+1. Masuk ke nc yang ada di soal nc nc nc nc nc 10.15.42.60 51000 & download pcapng
+2. Follow Stream TCP 
+3. Lakukan Analisa
+4. Masukkan Jawabannya ke pertanyaan
 
 
 ### Dokumentasi Pengerjaan
@@ -113,9 +123,13 @@ Sebuah perusahaan IT support mendapatkan serangan oleh orang tidak dikenal. Bant
 Kamu seorang data analisis diminta untuk memastikan ulang data-data dari beberapa pegawai
 
 ### Flag
+JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_3XQr3NnkfxlNQTXU6uq4FugJzL3rB7dh5vn8ICmZ6uB6BEiDMRKbM4h}
 
 
 ### Penjelasan
+1.Masuk ke nc yang ada di soal nc nc 10.15.42.60 53000 & download pcapng dari soal
+2.Lakukan Filtering berupa TCP dan follow streamnya
+3. Analisa hasilnya dan masukkan jawaban ke pertanyaan
 
 
 ### Dokumentasi Pengerjaan
@@ -126,9 +140,13 @@ Kamu seorang data analisis diminta untuk memastikan ulang data-data dari beberap
 Aku sedang mencoba bikin chat service tapi kayanya pesannya bisa di sniffing deh? coba temukan pesannya.
 
 ### Flag
+JarkomIT{BiAr_aman_Pake_sSh_WYCakZDMgW0JHjiO22BaCoYc03z54cKDZEScFSk5821Wm4ehhyy6EZ}
 
 
 ### Penjelasan
+1.Masuk ke nc yang ada di soal nc nc nc 10.15.42.60 54000 & download pcapng dari soal
+2.Lakukan Filtering berupa TCP dan follow streamnya
+3.Analisa Hasilnya dan masukkan jawaban ke pertanyaanya
 
 
 ### Dokumentasi Pengerjaan
@@ -169,9 +187,14 @@ Ternyata sang attacker dengan sengaja meninggalkan sesuatu untuk dibaca oleh kam
 File sama seperti Corporate Breach.
 
 ### Flag
+JarkomIT{s3cr3t_m3ss4ge_fr0m_4uth0r_F4p5OLXhaQmgLi4683d05j20LC0In5zP7zTZkdjGgotoT3En5Cb4L0R}
 
 
 ### Penjelasan
+1. Masuk ke nc yang ada di soal nc nc nc nc nc 10.15.42.60 51000 & download pcapng
+2. Follow Stream TCP 
+3. Lakukan Analisa
+4. Masukkan Jawabannya ke pertanyaan
 
 
 ### Dokumentasi Pengerjaan
@@ -182,9 +205,16 @@ File sama seperti Corporate Breach.
 Seekor stegosaurus berusaha menyimpan pesan di dalam beberapa gambar apakah kamu bisa memperoleh dan menyusunnya?
 
 ### Flag
+JarkomIT{S3LaM4t_p4rA_PahL4WaN_DqhNt9l1cf224DkvLr6IzqldHP5sh19ZEiYuSuvJoF2YxaBUGWKKPhC5}
 
 
 ### Penjelasan
+1. Masuk ke nc yang ada di soal nc nc nc nc 10.15.42.60 58000 & download pcapng serta zip dari soal
+2. Lakukan Extract pada file untuk membuka file code berupa reversed.py
+3. Lakukan Edit pada Python Code agar bisa menerima argv
+4. Lakukan Extract FTP-Data berupa 13 Image yang sudah Steganografi
+5. Jalankan Kode Python dengan memasukan syntax imagenya juga ke semua kodenya
+6. Masukkan jawabannya ke pertanyaannya
 
 
 ### Dokumentasi Pengerjaan
