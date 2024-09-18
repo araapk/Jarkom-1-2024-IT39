@@ -1,4 +1,4 @@
-# Laporan Resmi Praktikum Jarkom 2024 Modul -1
+# Laporan Resmi Praktikum Jarkom Modul 1 2024
 
 ---
 ### Anggota Kelompok
