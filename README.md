@@ -36,12 +36,23 @@ Yang sederhana dulu aja.
 Seorang full-stack developer bernama kevin sedang membuat sebuah web yang memiliki login page. Tetapi karena ia hanya digaji rendah, ia lupa untuk mengamankan web yang ia buat. Bantulah kevin untuk tracing dari jejak yang ditinggalkan oleh attacker.
 
 ### Flag
-
+JarkomIT{d34th_fr0m_th3_sky_MXmnLDXXbYhSLr4OWxS2XQaYdH1ZiQ2blHsJEajlBeYADkX01Vm3WW1}
 
 ### Penjelasan
-
+Langkah-langkah menemukan flag :
+1. Masuk ke nc yang ada di soal `nc 10.15.42.60 47000`
+2. Temukan IP address dari korban dengan cara mencari di `destination` pada wireshark
+3. Temukan port yang digunakan sebagai webserver dengan cara `follow` pada ip addresnya, `open with http atau lainnya`, dan temukan portnya di hostnya
+4. Temukan dimana endpoint yang terdapat login denan cara mencari di `info`
+5. Temukan tools apa yang digunakan oleh attacker dengan cara `follow` pada ip addresnya
+6. Temukan kredensial apa yang berhasil digunakan oleh attacker untuk login dengan cara `follow` pada ip addresnya kemudian temukan user dan passwordnya
+7. Setelah menemukan semuanya akan muncul flagnya dan masukkan pada soal
 
 ### Dokumentasi Pengerjaan
+![Screenshot_2024-09-18_13_10_51](https://github.com/user-attachments/assets/9a6afeb8-adc0-4ffb-a178-2e9e27b8017e)
+![Screenshot_2024-09-18_13_11_19](https://github.com/user-attachments/assets/a0caec0b-6ec8-4361-b63c-98b37ef93a09)
+![Screenshot_2024-09-18_13_11_37](https://github.com/user-attachments/assets/d0e277a1-94bb-4980-babb-3b6ba8d2b491)
+
 
 
 ## Packets Barrage
@@ -63,12 +74,19 @@ File sama seperti Illegal Breakthrough.
 Seseorang menemukan sebuah celah dalam sebuah server. Ia mencoba untuk melakukan brute force login dan ia berhasil masuk. Lakukan pemeriksaan untuk melihat apa yang dilakukan oleh orang tersebut!
 
 ### Flag
-
+JarkomIT{n0t_s0_s3cur3_ftp_Z6debjHQHNU2uOmUZvNqtt2QmL0KE2XZDY81Hkj30cLkOcDu30uhG1N}
 
 ### Penjelasan
-
+Langkah-langkah menemukan flag :
+1. Masuk ke nc yang ada di soal `nc 10.15.42.60 49000`
+2. Temukan username yang berhasil digunakan untuk FTP login dengan cara mencari di `info`
+3. Temukan password yang berhasil digunakan untuk FTP login dengan cara mencari di `info`
+4. Setelah menemukan semuanya akan muncul flagnya dan masukkan pada soal
 
 ### Dokumentasi Pengerjaan
+![Screenshot_2024-09-18_13_31_28](https://github.com/user-attachments/assets/941d8742-a782-402d-83a3-58ab8dea58b7)
+![Screenshot_2024-09-18_13_31_52](https://github.com/user-attachments/assets/3e6654a1-8914-4369-96e3-59a2529bf1ee)
+
 
 
 ## Surprise
@@ -77,12 +95,20 @@ Setelah mengetahui apa yang diketahui pada challenge sebelumnya, sekarang lakuka
 File sama seperti FTP Login.
 
 ### Flag
-
+JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_tSvczBH3CSN1umnRG7wxlQaxwG05z50eT7nZYnGy5x5eYbYW8VKITCHU} 
 
 ### Penjelasan
-
+Langkah-langkah menemukan flag :
+1. Masuk ke nc yang ada di soal `nc 10.15.42.60 48500`
+2. Temukan service yang digunakan pada FTP server dengan cara
+3. Temukan nama file yang dikirim oleh attacker dengan cara
+4. Temukan pesan rahasia yang ditinggalkan oleh attacker dengan cara
+5. Setelah menemukan semuanya akan muncul flagnya dan masukkan pada soal
 
 ### Dokumentasi Pengerjaan
+![Screenshot_2024-09-18_13_33_23](https://github.com/user-attachments/assets/81b28609-e33c-40ab-acb9-e0ad9cd6061c)
+![Screenshot_2024-09-18_13_33_39](https://github.com/user-attachments/assets/9b411e48-0c5c-42d0-a530-d2ae551011e2)
+
 
 
 ## Corporate Breach
