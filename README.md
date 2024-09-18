@@ -18,7 +18,7 @@
 - [Stegography](#stegography)
 
 
-## Advance Sanity
+## Advance Sanity Check
 ### Deskripsi
 Yang sederhana dulu aja.
 
