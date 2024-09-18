@@ -34,6 +34,8 @@ JarkomIT{8uK4n_S4n1ty_b1a5A_xcTcEi7kvH6fLCItLIZzNzBZZSu5b4OTIjRxoQ2UzzgIr6eWNHIw
 
 
 ### Dokumentasi Pengerjaan
+![image](https://github.com/user-attachments/assets/6accfd4f-0184-4b15-b943-2e9d78e911c7)
+![image](https://github.com/user-attachments/assets/b05d5792-bcac-4cba-b826-e607751a0614)
 
 
 ## Illegal Breakthrough
@@ -116,6 +118,7 @@ JarkomIT{supp0rt_k0k_l3m4h_bg_spWRE3LkMxyzoWMMVAlNt7saeG6mdRvzEbWx7asAXh6U0efY4z
 
 
 ### Dokumentasi Pengerjaan
+![image](https://github.com/user-attachments/assets/b21f83e4-2ad8-46f8-a387-3c634f2c05cf)
 
 
 ## Pegawai Negeri Sebelah
@@ -133,6 +136,8 @@ JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_3XQr3NnkfxlNQTXU6uq4FugJzL3rB7dh5vn8ICmZ6u
 
 
 ### Dokumentasi Pengerjaan
+![image](https://github.com/user-attachments/assets/e3c441ac-31bb-49b4-bce7-662c787579c3)
+![image](https://github.com/user-attachments/assets/263ae228-43e1-42fa-ad48-aecfb5cd8e7a)
 
 
 ## EZ
@@ -150,6 +155,8 @@ JarkomIT{BiAr_aman_Pake_sSh_WYCakZDMgW0JHjiO22BaCoYc03z54cKDZEScFSk5821Wm4ehhyy6
 
 
 ### Dokumentasi Pengerjaan
+![image](https://github.com/user-attachments/assets/0a4fa041-6735-48c1-8c8d-745321bd67ed)
+![image](https://github.com/user-attachments/assets/e6532cae-506f-4f6a-aade-2adcd974ad50)
 
 
 ## Rizzset
@@ -198,6 +205,7 @@ JarkomIT{s3cr3t_m3ss4ge_fr0m_4uth0r_F4p5OLXhaQmgLi4683d05j20LC0In5zP7zTZkdjGgoto
 
 
 ### Dokumentasi Pengerjaan
+![image](https://github.com/user-attachments/assets/57ae35a1-8546-4db5-925b-ab1ae8286bee)
 
 
 ## Stegography
@@ -218,3 +226,11 @@ JarkomIT{S3LaM4t_p4rA_PahL4WaN_DqhNt9l1cf224DkvLr6IzqldHP5sh19ZEiYuSuvJoF2YxaBUG
 
 
 ### Dokumentasi Pengerjaan
+![image](https://github.com/user-attachments/assets/abddb359-960f-4557-9275-d1d17f535cf1)
+![image](https://github.com/user-attachments/assets/2614b4df-30e4-4a34-82af-dea1eee6d36d)
+![image](https://github.com/user-attachments/assets/7672873d-c055-4824-9c51-b4db7f901bb4)
+![image](https://github.com/user-attachments/assets/58702d1a-519e-4dd1-9f0b-5e9718b7e2cc)
+![image](https://github.com/user-attachments/assets/aceee1bc-dbbc-46b1-bba4-46b1d3e5fae5)
+
+
+
