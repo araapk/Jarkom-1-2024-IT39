@@ -27,9 +27,13 @@ JarkomIT{8uK4n_S4n1ty_b1a5A_xcTcEi7kvH6fLCItLIZzNzBZZSu5b4OTIjRxoQ2UzzgIr6eWNHIw
 
 ### Penjelasan
 1.Masuk ke nc yang ada di soal nc 10.15.42.60 47000 & download pcapng dari soal
+
 2.Lakukan Filtering berupa TCP dan follow streamnya 
+
 3.Data berupa username pengirim dan juga filenya akan ketemu
+
 4.Untuk mendapatkan pesan rahasia, ikuti petunjuk, lalu dapatkan kode dari ppt peraturan. 
+
 5.Lakukan Decode dari Base64 ke Text
 
 
