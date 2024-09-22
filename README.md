@@ -238,3 +238,23 @@ JarkomIT{S3LaM4t_p4rA_PahL4WaN_DqhNt9l1cf224DkvLr6IzqldHP5sh19ZEiYuSuvJoF2YxaBUG
 
 
 
+
+
+
+# Revisi
+
+## Packets Barrage
+### Deskripsi
+Setelah membantu kevin untuk tracing attacker, sekarang bantu lagi kevin untuk mencari apa yang dilakukan oleh attacker.
+File sama seperti Illegal Breakthrough.
+
+### Penjelasan
+1. Masuk ke nc yang ada di soal `nc 10.15.42.60 47000`
+2. Temukan IP address dari attacker dengan cara mencari di `source`
+3. Temukan total attempt dari bruteforce attacker dengan cara mencari di `follow tcp stream` pada ip addressnya, kemudian ambil pada `host`
+4. Temukan nama file yang di download oleh attacker setelah berhasil login dengan cara mencari di `follow tcp stream`
+5. Temukan isi file yang disisipkan oleh attacker dengan cara mencari di `follow tcp stream`
+6. Setelah menemukan semuanya akan muncul flagnya dan masukkan pada soal
+
+### Dokumentasi Pengerjaan
+![Screenshot 2024-09-22 025048](https://github.com/user-attachments/assets/64f12a95-24bd-4a42-af28-bca1526c3833)
