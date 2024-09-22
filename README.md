@@ -298,3 +298,24 @@ Pada perusahaan PT. +1000 Aura telah terjadi insiden yang besar, dimana seorang 
 ![Screenshot 2024-09-22 230457](https://github.com/user-attachments/assets/b65d5758-fafa-4478-8cea-d18ab4065905)
 ![Screenshot 2024-09-22 230423](https://github.com/user-attachments/assets/4b4cb44f-8aaa-4323-9ec8-98691c6af0f7)
 ![Screenshot 2024-09-22 230357](https://github.com/user-attachments/assets/53a0fb8d-2660-4b70-a764-3f0087dcd8f5)
+
+
+
+## Gajah Terbang (Attacker Recon)
+### Deskripsi
+Setelah berhasil menginvestigasi server yang berjalan, kamu diharuskan untuk mencari identitas dan mencari jejak apa saja yang telah dilakukan oleh penyerang! Kamu jago, pasti bisa let’s go temukan tersangkanya!!!
+File sama seperti Gajah Terbang.
+
+### Penjelasan
+1. Masuk ke nc yang ada di soal `nc 10.15.42.60 62000`
+2. Temukan akun yang dimiliki oleh penyerang dalam database dengan cara mencari di `follow tcp stream`
+3. Temukan password yang digunakan oleh penyerang dengan cara mencari di `follow tcp stream, kemudian decrypt passwordnya menggunakan web `MD5``
+4. Temukan tanggal akun penyerang di ban dengan cara mencari di `follow tcp stream`
+5. Temukan table yang dimodifikasi oleh penyerang digunakan dengan cara mencari di `follow tcp stream`
+6. Temukan barang yang dibeli oleh penyerang dengan cara mencari di `follow tcp stream`
+7. Temukan berapa total transaksi dari barang yang dibeli oleh penyerang dengan cara mencari di `follow tcp stream`
+8. Setelah menemukan semuanya akan muncul flagnya dan masukkan pada soal
+
+### Dokumentasi Pengerjaan
+![Screenshot 2024-09-22 234609](https://github.com/user-attachments/assets/d44a4e7e-53a0-4ea5-8dee-b3c04117c7b9)
+![Screenshot 2024-09-22 234636](https://github.com/user-attachments/assets/b2236778-419c-487a-a44c-c512db0d2c7c)
