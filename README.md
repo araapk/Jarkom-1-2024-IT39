@@ -55,7 +55,7 @@ Langkah-langkah menemukan flag :
 2. Temukan IP address dari korban dengan cara mencari di `destination` pada wireshark
 3. Temukan port yang digunakan sebagai webserver dengan cara `follow` pada ip addresnya, `open with http atau lainnya`, dan temukan portnya di hostnya
 4. Temukan dimana endpoint yang terdapat login denan cara mencari di `info`
-5. Temukan tools apa yang digunakan oleh attacker dengan cara `follow` pada ip addresnya
+5. Temukan tools apa yang digunakan oleh attacker dengan cara `follow` pada ip addresnya. Lihat di `https://www.kali.org/tools/ffuf/`
 6. Temukan kredensial apa yang berhasil digunakan oleh attacker untuk login dengan cara `follow` pada ip addresnya kemudian temukan user dan passwordnya
 7. Setelah menemukan semuanya akan muncul flagnya dan masukkan pada soal
 
@@ -173,7 +173,7 @@ JarkomIT{Dn5_C0rR34t10n_n8hjYobGqKiPEhMTB3eeSGgeIr1zZPQRNUbU2unoKhb42NNwj4XcEh1T
 ### Penjelasan
 Langkah-langkah menemukan flag :
 1. Masuk ke nc yang ada di soal `nc 10.15.42.60 59500`
-2. Cari di google cara install jarm
+2. Cari di google cara install jarm. Lihat di `https://securitytrails.com/blog/jarm-fingerprinting-tool` dan `https://github.com/salesforce/jarm`
    - Clone github jarm di terminal
    - Pindah ke folder `jarm`
    - Install requirementsnya menggunakan command `pip install -r requirements.txt`
