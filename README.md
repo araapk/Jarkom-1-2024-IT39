@@ -276,3 +276,25 @@ Buktikan kalo kamu adalah analis OP, bisakah kamu menganalisa apa yang terjadi b
 ![Screenshot 2024-09-22 033236](https://github.com/user-attachments/assets/a7c0a130-aac6-4dc5-a026-ac6f76344367)
 ![Screenshot 2024-09-22 224244](https://github.com/user-attachments/assets/c5846320-9f6d-4d88-a16c-c2b63dcf4ca0)
 
+
+
+## Gajah Terbang (Server Recon)
+### Deskripsi
+Pada perusahaan PT. +1000 Aura telah terjadi insiden yang besar, dimana seorang hengker berhasil masuk ke sistem database perusahaan tersebut, dan melakukan manipulasi sistem database mereka. Anda sebagai profesional Cyber Security Analyst ditugaskan untuk melakukan investigasi melalui log network yang berhasil tercapture!
+
+### Penjelasan
+1. Masuk ke nc yang ada di soal `nc 10.15.42.60 61000`
+2. Temukan DBMS yang digunakan pada server dengan cara mencari di `info`
+3. Temukan port berapa DBMS server berjalan dengan cara mencari di `info`
+4. Temukan OS yang digunakan untuk servernya dengan cara mencari di `follow tcp stream`
+5. Temukan credentials username DBMS yang valid digunakan dengan cara mencari di `follow tcp stream`
+6. Temukan nama database yang digunakan dengan cara mencari di `follow tcp stream`
+7. Temukan berapa banyak users yang ada di dalam database dengan cara mencari di `follow tcp stream`
+8. Temukan email yang digunakan oleh admin dengan cara mencari di `follow tcp stream`
+9. Temukan password yang digunakan oleh admin dengan cara mencari di `follow tcp stream`, kemudian decrypt passwordnya menggunakan web `MD5`
+10. Setelah menemukan semuanya akan muncul flagnya dan masukkan pada soal
+
+### Dokumentasi Pengerjaan
+![Screenshot 2024-09-22 230457](https://github.com/user-attachments/assets/b65d5758-fafa-4478-8cea-d18ab4065905)
+![Screenshot 2024-09-22 230423](https://github.com/user-attachments/assets/4b4cb44f-8aaa-4323-9ec8-98691c6af0f7)
+![Screenshot 2024-09-22 230357](https://github.com/user-attachments/assets/53a0fb8d-2660-4b70-a764-3f0087dcd8f5)
