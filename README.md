@@ -258,3 +258,21 @@ File sama seperti Illegal Breakthrough.
 
 ### Dokumentasi Pengerjaan
 ![Screenshot 2024-09-22 025048](https://github.com/user-attachments/assets/64f12a95-24bd-4a42-af28-bca1526c3833)
+
+
+
+## Simba
+### Deskripsi
+Buktikan kalo kamu adalah analis OP, bisakah kamu menganalisa apa yang terjadi berdasarkan evidence ini
+
+### Penjelasan
+1. Masuk ke nc yang ada di soal `nc 10.15.42.60 63000`
+2. Temukan service apa yang compromise dengan cara mencari di `info`
+3. Temukan user yang compromise dengan cara mencari di `follow tcp stream`
+4. Temukan berapa file yang berhasil ter-leak dari hasil enumerasi protokol/service dengan cara mencari di `follow tcp stream`
+5. Setelah menemukan semuanya akan muncul flagnya dan masukkan pada soal
+
+### Dokumentasi Pengerjaan
+![Screenshot 2024-09-22 033236](https://github.com/user-attachments/assets/a7c0a130-aac6-4dc5-a026-ac6f76344367)
+![Screenshot 2024-09-22 224244](https://github.com/user-attachments/assets/c5846320-9f6d-4d88-a16c-c2b63dcf4ca0)
+
